@@ -19,7 +19,7 @@ function convertValues() {
             currency: "USD"
         }).format(inputCurrencyValue / dolarToday)
     }
-    
+
     if (currencySelect.value == "euro") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
@@ -34,7 +34,6 @@ function convertValues() {
         }).format(inputCurrencyValue)
 
 
-
-}
-
 convertButton.addEventListener("click", convertValues)
+}
+console.log("funionando")
